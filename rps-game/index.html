@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rock Paper Scissor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <div class="title">
+      <header class="rps">
+        Rock Paper Scissor
+      </header>
+    </div>
+    <div class="display">
+      <span class="w1">Wins : <label id="w">0</label></span></br>
+      <span class="l1">Lose : <label id="l">0</label></span></br>
+      <span class="t1">Ties : <label id="t">0</label></span></br>
+    </div>
+    <div class="displayOption">
+      <span class="you1">You : <label id="you">start</label></span><br>
+      <span class="miniDisplay"> <label id="miniDisplay">START</label></span><br>
+      <span class="com1">Computer : <label id="com">start</label></span><br>
+    </div>
+    <div class="option">
+      <button class="button" onclick='rps("Rock")'>✊</button>
+      <button class="button" onclick='rps("Paper")'>🤚</button>
+      <button class="button" onclick='rps("Scissor")'>✌️</button><br>
+    </div>
+    <div class="Btn">
+      <button class="resetBtn" id="reset" > Restart the game</button>
+    </div>
+    <div class="github">
+      <a class="ghl" href="https://github.com/Bharani64Bit">
+        <i class="ghi fa-brands fa-github"></i>
+      </a>
+      <a class="igl" href="https://instagram.com/_bit_n_byte_?igshid=YmMyMTA2M2Y=">
+        <i class="igi fa-brands fa-instagram"></i>
+      </a>
+    </div>
+    <div class="cpw">
+      <label class="cpw1">COPYRIGHT (C) </label><label class="cpw1" id="year"></label><label class="cpw1"> BARANI. ALL RIGHTS RESERVED.</label>
+    </div>
+    <script src="./assets/setup.js"></script>
+  </body>
+</html>
